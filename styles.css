@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #121212, #1db954);
+    color: white;
+    text-align: center;
+}
+
+/* Pantallas */
+.screen {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ocultar */
+.oculto {
+    display: none;
+}
+
+/* Títulos */
+h1 {
+    font-size: 2.5em;
+}
+
+h3 {
+    margin-bottom: 30px;
+    color: #ddd;
+}
+
+/* Botones */
+button {
+    margin: 10px;
+    padding: 12px 25px;
+    border: none;
+    background: #1db954;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #17a44b;
+    transform: scale(1.1);
+}
+
+/* Tarjetas */
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+/* Imágenes */
+img {
+    width: 200px;
+    border-radius: 15px;
+    margin: 15px 0;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
